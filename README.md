@@ -56,3 +56,7 @@
 
 ### `git push --set-upstream origin feature-branch-2`
     - Push the branch to the remote repo to merge by GitHub
+    - And then create a *Pull Request*
+
+### `git branch -d <feature-branch>`
+    - Delete the branch
