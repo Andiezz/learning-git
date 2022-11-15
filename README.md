@@ -3,16 +3,19 @@
 ## basic commands
 
 ### `git status`
-    Show the files and changes that have not tracked (# committed)  yet.
+    - Show the files and changes that have not tracked (# committed)  yet.
 
 ### `git add / git add .`
-    Tell git which file to track (ready to commit)
+    - Tell git which file to track (ready to commit)
 
-### `git commit -m "<name>" -m <description>`
-    Commit changes to the local repo
+### `git commit -m "<name>" -m <message>`
+    - Commit changes to the local repo
+
+### `git commit -am -m <message>`
+    - Add and commit (just with old files)
 
 ### `git push / git push origin master` 
-    Push the local repo to remote repo
+    - Push the local repo to remote repo
 
 ### SSH keys
     - To prove to GitHub you are the owner of your account
@@ -60,4 +63,3 @@
 
 ### `git branch -d <feature-branch>`
     - Delete the branch
-
