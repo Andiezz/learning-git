@@ -51,7 +51,7 @@
 ### `git checkout`
     - Switch between branches
 
-### `git diff`
+### `git diff <branch name>`
     - Check the changes in the other branch
 
 ### `git push --set-upstream origin feature-branch-2`
@@ -61,4 +61,3 @@
 ### `git branch -d <feature-branch>`
     - Delete the branch
 
-    
