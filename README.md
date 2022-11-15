@@ -1,6 +1,6 @@
-# learning-git
+# git command
 
-## git command
+## basic commands
 
 ### `git status`
     Show the files and changes that have not tracked (# committed)  yet.
@@ -22,8 +22,31 @@
     - id_rsa.pub: public key
 #### Adding connection to the local github
     - in Git Bash
+##### `eval "$(ssh-agent -s)"`
     - Start the ssh-agent in the background
-`eval "$(ssh-agent -s)"`
+##### `ssh-add ~/.ssh/<your_key_name>`
     - Add your SSH private key to the ssh-agent.
-`ssh-add ~/.ssh/<your_key_name>`
 
+### `git init`
+    - Initialize git repo
+
+### `git remote add origin`
+    - Add the reference to the remote repo
+
+### `git remote -v`
+    - Check the version of git remote
+
+### `git push -u origin master`
+    - Set default where to push, after that just `git push`
+
+
+## git branching
+
+### `git branch`
+    - Check the branches
+
+### `git checkout -b <name of feature branch>`
+    - Create a new branch
+
+### `git checkout`
+    - Switch between branches
