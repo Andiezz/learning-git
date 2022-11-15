@@ -63,3 +63,12 @@
 
 ### `git branch -d <feature-branch>`
     - Delete the branch
+
+### `git reset nothing/<filename>`
+    - Undo tracking / staging (not add yet)
+
+### `git reset HEAD~(number of commit you want to undo)` / `git reset <hash code of commit>`
+    - HEAD pointer to last commit
+
+### `git reset --hard <hash code of commit>`
+    - Change directly
