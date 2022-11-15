@@ -51,3 +51,8 @@
 ### `git checkout`
     - Switch between branches
 
+### `git diff`
+    - Check the changes in the other branch
+
+### `git push --set-upstream origin feature-branch-2`
+    - Push the branch to the remote repo to merge by GitHub
